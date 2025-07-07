@@ -9,3 +9,8 @@ Linux
 ./build/src/tictactoe
 Windows
 ./build/src/tictactoe.exe
+
+To run tests
+./build.sh
+cd build/test
+ctest

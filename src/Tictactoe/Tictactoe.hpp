@@ -1,6 +1,8 @@
 #ifndef TICTACTOE_H
 #define TICTACTOE_H
 
+#include <stdlib.h>
+
 struct T3
 {
     static const size_t SIZE = 4;

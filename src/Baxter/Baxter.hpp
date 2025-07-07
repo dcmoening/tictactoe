@@ -1,6 +1,9 @@
 #ifndef BAXTER_H
 #define BAXTER_H
 
+#include <stdlib.h>
+#include <gtest/gtest.h>
+
 #include "Tictactoe.hpp"
 
 class Baxter
@@ -17,6 +20,11 @@ public:
     void Move();
 
 private:
+    FRIEND_TEST(BaxterTest, CalculateRow);
+    FRIEND_TEST(BaxterTest, CalculateCol);
+    FRIEND_TEST(BaxterTest, CalculateDiag);
+    FRIEND_TEST(BaxterTest, CalculatePaths);
+
     T3& m_t3;
     const char m_player;
     const char m_otherPlayer;
