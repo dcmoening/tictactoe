@@ -15,4 +15,4 @@ To run tests
 cd build/test
 ctest
 
-yes
+yes2
