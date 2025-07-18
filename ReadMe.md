@@ -14,3 +14,5 @@ To run tests
 ./build.sh
 cd build/test
 ctest
+
+Add some more tests later on. A lot later...
