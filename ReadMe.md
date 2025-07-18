@@ -14,5 +14,3 @@ To run tests
 ./build.sh
 cd build/test
 ctest
-
-yes2
